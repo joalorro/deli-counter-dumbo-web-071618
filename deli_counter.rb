@@ -2,12 +2,12 @@ katzDeli = ["Avi", "Z", "Michelle"]
 
 def line(katzDeli)
   
-  msg = "The line is currently: "
+  msg = "The line is currently:"
   if katzDeli.length == 0
     puts "The line is currently empty."
   else
     for i in 0 .. katzDeli.length - 1 
-      msg += "#{i + 1}. #{katzDeli[i]} "
+      msg += " #{i + 1}. #{katzDeli[i]}"
     end
     
     puts msg
