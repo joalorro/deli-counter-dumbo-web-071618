@@ -8,7 +8,6 @@ def line(katzDeli)
   else
     for i in 0 .. katzDeli.length
       puts msg + "#{i + 1}. #{katzDeli[i]} "
-      place += 1 
     end
   end
   
