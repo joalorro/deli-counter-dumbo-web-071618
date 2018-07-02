@@ -9,10 +9,9 @@ def line(katzDeli)
     for i in 0 .. katzDeli.length - 1 
       msg += "#{i + 1}. #{katzDeli[i]} "
     end
+    
+    puts msg
   end
-  
-  puts msg
-  
 end
 
 def take_a_number(katz_deli, name)
