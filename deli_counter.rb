@@ -1,3 +1,5 @@
+katzDeli = ["Avi", "Z", "Michelle"]
+
 def line(katzDeli)
   place = 1
   msg = "The line is currently: "
@@ -5,7 +7,7 @@ def line(katzDeli)
     puts "The line is currently empty."
   else
     katzDeli.each do |name|
-      puts msg + "#{place}. #{name}"
+      puts msg + "#{place}. #{name} "
       place += 1 
     end
   end
@@ -26,3 +28,5 @@ def now_serving(katz_deli)
   end
   
 end
+
+line(katzDeli)
