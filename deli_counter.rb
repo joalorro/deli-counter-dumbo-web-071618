@@ -7,7 +7,7 @@ def line(katzDeli)
     puts "The line is currently empty."
   else
     for i in 1 .. katzDeli.length
-      puts msg + "#{i}. #{name} "
+      puts msg + "#{i}. #{katzDeli[i-1]} "
       place += 1 
     end
   end
