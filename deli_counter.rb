@@ -6,7 +6,7 @@ def line(katzDeli)
   if katzDeli.length == 0
     puts "The line is currently empty."
   else
-    for i in 0 .. katzDeli.length
+    for i in 0 .. katzDeli.length - 1 
       msg += "#{i + 1}. #{katzDeli[i]} "
     end
   end
