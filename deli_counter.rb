@@ -7,9 +7,11 @@ def line(katzDeli)
     puts "The line is currently empty."
   else
     for i in 0 .. katzDeli.length
-      puts msg + "#{i + 1}. #{katzDeli[i]} "
+      msg += "#{i + 1}. #{katzDeli[i]} "
     end
   end
+  
+  puts msg
   
 end
 
