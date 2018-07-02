@@ -1,13 +1,13 @@
 katzDeli = ["Avi", "Z", "Michelle"]
 
 def line(katzDeli)
-  place = 1
+  
   msg = "The line is currently: "
   if katzDeli.length == 0
     puts "The line is currently empty."
   else
-    katzDeli.each do |name|
-      puts msg + "#{place}. #{name} "
+    for i in 1 .. katzDeli.length
+      puts msg + "#{i}. #{name} "
       place += 1 
     end
   end
